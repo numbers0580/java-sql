@@ -50,7 +50,9 @@ WHERE city = 'London'
   </details>
 
 ```SQL
-
+SELECT *
+FROM customers
+WHERE postal_code = '1010'
 ```
 
 * [ ] ***find the phone number for the supplier with the id 11. Should be (010) 9984510***
@@ -61,7 +63,9 @@ WHERE city = 'London'
   </details>
 
 ```SQL
-
+SELECT phone
+FROM suppliers
+WHERE supplier_id = 11
 ```
 
 * [ ] ***list orders descending by the order date. The order with date 1998-05-06 should be at the top***
@@ -72,7 +76,9 @@ WHERE city = 'London'
   </details>
 
 ```SQL
-
+SELECT *
+FROM orders
+ORDER BY order_date DESC
 ```
 
 * [ ] ***find all suppliers who have names longer than 20 characters. Returns 11 records***
@@ -84,7 +90,9 @@ WHERE city = 'London'
   </details>
 
 ```SQL
-
+SELECT *
+FROM suppliers
+WHERE LENGTH(company_name) > 20
 ```
 
 * [ ] ***find all customers that include the word 'MARKET' in the contact title. Should return 19 records***
@@ -97,7 +105,9 @@ WHERE city = 'London'
   </details>
 
 ```SQL
-
+SELECT *
+FROM customers
+WHERE contact_title LIKE '%Market%'
 ```
 
 * [ ] ***add a customer record for***
