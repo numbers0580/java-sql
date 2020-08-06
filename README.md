@@ -206,35 +206,33 @@ Below are some empty tables to be used to normalize the database
 
 Table Name: Owners
 
-| Owner ID | Person Name | Fenced Yard | City Dweller |
-|----------|-------------|-------------|--------------|
-| 1        | Jane        | No          | Yes          |
-| 2        | Bob         | No          | No           |
-| 2        | Sam         | Yes         | No           |
+| OwnerID | PersonName | FencedYard | CityDweller |
+|---------|------------|------------|-------------|
+| 1       | Jane       | No         | Yes         |
+| 2       | Bob        | No         | No          |
+| 2       | Sam        | Yes        | No          |
 
 Table Name: Pets
 
-| Pet ID | Pet Name   | Pet Type | Owner ID | Position |
-|--------|------------|----------|----------|----------|
-| 1      | Ellie      | Dog      | 1        | First    |
-| 2      | Joe        | Horse    | 2        | First    |
-| 3      | Ginger     | Dog      | 3        | First    |
-| 4      | Tiger      | Cat      | 1        | Second   |
-| 5      | Miss Kitty | Cat      | 3        | Second   |
-| 6      | Toby       | Turtle   | 1        | Third    |
-| 7      | Bubble     | Fish     | 3        | Third    |
+| OwnerID | PetName    | TypeID |
+|---------|------------|--------|
+| 1       | Ellie      | 1      |
+| 2       | Joe        | 3      |
+| 3       | Ginger     | 1      |
+| 1       | Tiger      | 2      |
+| 3       | Miss Kitty | 2      |
+| 1       | Toby       | 4      |
+| 3       | Bubble     | 5      |
 
-Table Name:
+Table Name: PetSpecies
 
-|            |            |            |            |            |            |            |            |            |
-|------------|------------|------------|------------|------------|------------|------------|------------|------------|
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
+| TypeID | PetType |
+|--------|---------|
+| 1      | Dog     |
+| 2      | Cat     |
+| 3      | Horse   |
+| 4      | Turtle  |
+| 5      | Fish    |
 
 Table Name:
 
