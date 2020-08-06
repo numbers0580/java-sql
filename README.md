@@ -206,11 +206,11 @@ Below are some empty tables to be used to normalize the database
 
 Table Name: Owners
 
-| Owner ID | Person Name | Fenced Yard | City Dweller | Pet1 ID | Pet2 ID | Pet3 ID |
-|----------|-------------|-------------|--------------|---------|---------|---------|
-| 1        | Jane        | No          | Yes          | 1       | 4       | 6       |
-| 2        | Bob         | No          | No           | 2       |         |         |
-| 2        | Sam         | Yes         | No           | 3       | 5       | 7       |
+| Owner ID | Person Name | Fenced Yard | City Dweller |
+|----------|-------------|-------------|--------------|
+| 1        | Jane        | No          | Yes          |
+| 2        | Bob         | No          | No           |
+| 2        | Sam         | Yes         | No           |
 
 Table Name: Pets
 
