@@ -204,29 +204,25 @@ Below are some empty tables to be used to normalize the database
 * Not all of the cells will contain data in the final solution
 * Feel free to edit these tables as necessary
 
-Table Name:
+Table Name: Owners
 
-|            |            |            |            |            |            |            |            |            |
-|------------|------------|------------|------------|------------|------------|------------|------------|------------|
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
+| Owner ID | Person Name | Fenced Yard | City Dweller | Pet1 ID | Pet2 ID | Pet3 ID |
+|----------|-------------|-------------|--------------|---------|---------|---------|
+| 1        | Jane        | No          | Yes          | 1       | 4       | 6       |
+| 2        | Bob         | No          | No           | 2       |         |         |
+| 2        | Sam         | Yes         | No           | 3       | 5       | 7       |
 
-Table Name:
+Table Name: Pets
 
-|            |            |            |            |            |            |            |            |            |
-|------------|------------|------------|------------|------------|------------|------------|------------|------------|
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
+| Pet ID | Pet Name   | Pet Type | Owner ID | Position |
+|--------|------------|----------|----------|----------|
+| 1      | Ellie      | Dog      | 1        | First    |
+| 2      | Joe        | Horse    | 2        | First    |
+| 3      | Ginger     | Dog      | 3        | First    |
+| 4      | Tiger      | Cat      | 1        | Second   |
+| 5      | Miss Kitty | Cat      | 3        | Second   |
+| 6      | Toby       | Turtle   | 1        | Third    |
+| 7      | Bubble     | Fish     | 3        | Third    |
 
 Table Name:
 
